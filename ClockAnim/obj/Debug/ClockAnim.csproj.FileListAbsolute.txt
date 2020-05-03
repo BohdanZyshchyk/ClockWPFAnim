@@ -1,0 +1,14 @@
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\bin\Debug\ClockAnim.exe.config
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\bin\Debug\ClockAnim.exe
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\bin\Debug\ClockAnim.pdb
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim.csprojAssemblyReference.cache
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\MainWindow.g.cs
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\App.g.cs
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim_MarkupCompile.cache
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim_MarkupCompile.lref
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\MainWindow.baml
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim.g.resources
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim.Properties.Resources.resources
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim.csproj.GenerateResource.cache
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim.exe
+C:\Users\bohdan.zyshchuk\source\repos\ClockAnim\ClockAnim\obj\Debug\ClockAnim.pdb
