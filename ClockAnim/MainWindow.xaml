@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClockAnim"
         mc:Ignorable="d"
-        Title="MainWindow"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="{x:Null}" Height="580.296">
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Width="580" Height="580.296">
     <Window.Resources>
-        <Storyboard x:Key="sbSec">
+        <Storyboard x:Key="sbSec" RepeatBehavior="Forever">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="sec">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="12"/>
@@ -71,7 +71,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:1:00" Value="360"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Key="sbMin">
+        <Storyboard x:Key="sbMin" RepeatBehavior="Forever">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="min">
                 <EasingDoubleKeyFrame KeyTime="0:1:00" Value="6"/>
                 <EasingDoubleKeyFrame KeyTime="0:2:00" Value="12"/>
@@ -134,17 +134,79 @@
                 <EasingDoubleKeyFrame KeyTime="0:59:00" Value="354"/>
                 <EasingDoubleKeyFrame KeyTime="1:0:00" Value="360"/>
             </DoubleAnimationUsingKeyFrames>
-
         </Storyboard>
-        <Storyboard x:Key="sbHour"/>
+        <Storyboard x:Key="sbHour" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="hour">
+                <EasingDoubleKeyFrame KeyTime="0:12:00" Value="6"/>
+                <EasingDoubleKeyFrame KeyTime="0:24:00" Value="12"/>
+                <EasingDoubleKeyFrame KeyTime="0:36:00" Value="18"/>
+                <EasingDoubleKeyFrame KeyTime="0:48:00" Value="24"/>
+                <EasingDoubleKeyFrame KeyTime="1:00:00" Value="30"/>
+                <EasingDoubleKeyFrame KeyTime="1:12:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="1:24:00" Value="42"/>
+                <EasingDoubleKeyFrame KeyTime="1:36:00" Value="48"/>
+                <EasingDoubleKeyFrame KeyTime="1:48:00" Value="54"/>
+                <EasingDoubleKeyFrame KeyTime="2:00:00" Value="60"/>
+                <EasingDoubleKeyFrame KeyTime="2:12:00" Value="66"/>
+                <EasingDoubleKeyFrame KeyTime="2:24:00" Value="72"/>
+                <EasingDoubleKeyFrame KeyTime="2:36:00" Value="78"/>
+                <EasingDoubleKeyFrame KeyTime="2:48:00" Value="84"/>
+                <EasingDoubleKeyFrame KeyTime="3:00:00" Value="90"/>
+                <EasingDoubleKeyFrame KeyTime="3:12:00" Value="96"/>
+                <EasingDoubleKeyFrame KeyTime="3:24:00" Value="102"/>
+                <EasingDoubleKeyFrame KeyTime="3:36:00" Value="108"/>
+                <EasingDoubleKeyFrame KeyTime="3:48:00" Value="114"/>
+                <EasingDoubleKeyFrame KeyTime="4:00:00" Value="120"/>
+                <EasingDoubleKeyFrame KeyTime="4:12:00" Value="126"/>
+                <EasingDoubleKeyFrame KeyTime="4:24:00" Value="132"/>
+                <EasingDoubleKeyFrame KeyTime="4:36:00" Value="138"/>
+                <EasingDoubleKeyFrame KeyTime="4:48:00" Value="144"/>
+                <EasingDoubleKeyFrame KeyTime="5:00:00" Value="150"/>
+                <EasingDoubleKeyFrame KeyTime="5:12:00" Value="156"/>
+                <EasingDoubleKeyFrame KeyTime="5:24:00" Value="162"/>
+                <EasingDoubleKeyFrame KeyTime="5:36:00" Value="168"/>
+                <EasingDoubleKeyFrame KeyTime="5:48:00" Value="174"/>
+                <EasingDoubleKeyFrame KeyTime="6:00:00" Value="180"/>
+                <EasingDoubleKeyFrame KeyTime="6:12:00" Value="186"/>
+                <EasingDoubleKeyFrame KeyTime="6:24:00" Value="192"/>
+                <EasingDoubleKeyFrame KeyTime="6:26:00" Value="198"/>
+                <EasingDoubleKeyFrame KeyTime="6:48:00" Value="204"/>
+                <EasingDoubleKeyFrame KeyTime="7:00:00" Value="210"/>
+                <EasingDoubleKeyFrame KeyTime="7:12:00" Value="216"/>
+                <EasingDoubleKeyFrame KeyTime="7:24:00" Value="222"/>
+                <EasingDoubleKeyFrame KeyTime="7:36:00" Value="228"/>
+                <EasingDoubleKeyFrame KeyTime="7:48:00" Value="234"/>
+                <EasingDoubleKeyFrame KeyTime="7:00:00" Value="240"/>
+                <EasingDoubleKeyFrame KeyTime="8:12:00" Value="246"/>
+                <EasingDoubleKeyFrame KeyTime="8:24:00" Value="252"/>
+                <EasingDoubleKeyFrame KeyTime="8:36:00" Value="258"/>
+                <EasingDoubleKeyFrame KeyTime="8:48:00" Value="264"/>
+                <EasingDoubleKeyFrame KeyTime="9:00:00" Value="270"/>
+                <EasingDoubleKeyFrame KeyTime="9:12:00" Value="276"/>
+                <EasingDoubleKeyFrame KeyTime="9:24:00" Value="282"/>
+                <EasingDoubleKeyFrame KeyTime="9:36:00" Value="288"/>
+                <EasingDoubleKeyFrame KeyTime="9:48:00" Value="294"/>
+                <EasingDoubleKeyFrame KeyTime="10:00:00" Value="300"/>
+                <EasingDoubleKeyFrame KeyTime="10:12:00" Value="306"/>
+                <EasingDoubleKeyFrame KeyTime="10:24:00" Value="312"/>
+                <EasingDoubleKeyFrame KeyTime="10:36:00" Value="318"/>
+                <EasingDoubleKeyFrame KeyTime="10:48:00" Value="324"/>
+                <EasingDoubleKeyFrame KeyTime="11:00:00" Value="330"/>
+                <EasingDoubleKeyFrame KeyTime="11:12:00" Value="336"/>
+                <EasingDoubleKeyFrame KeyTime="11:24:00" Value="342"/>
+                <EasingDoubleKeyFrame KeyTime="11:36:00" Value="348"/>
+                <EasingDoubleKeyFrame KeyTime="11:48:00" Value="354"/>
+                <EasingDoubleKeyFrame KeyTime="12:00:00" Value="360"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
-    <Window.Triggers>
+    <!--<Window.Triggers>
         <EventTrigger RoutedEvent="FrameworkElement.Loaded">
             <BeginStoryboard Storyboard="{StaticResource sbSec}"/>
             <BeginStoryboard Storyboard="{StaticResource sbMin}"/>
             <BeginStoryboard Storyboard="{StaticResource sbHour}"/>
         </EventTrigger>
-    </Window.Triggers>
+    </Window.Triggers>-->
     <Grid>
         <Border BorderThickness="10" BorderBrush="Black" CornerRadius="300" Width="520" Height="520">
             <Grid Height="500" Width="500" HorizontalAlignment="Center" VerticalAlignment="Center">
